@@ -11080,8 +11080,7 @@ body {
 }
 .masthead h1, .masthead .h1 {
   /* font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
-  /* font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif; */
-  font-size: 1.5rem;
+  font-size: 2.0rem;
   line-height: 1.5rem;
   letter-spacing: 0.5rem;
   background: rgba(255, 255, 255, 0.8);
@@ -11091,13 +11090,12 @@ body {
           background-clip: text;
 }
 .masthead h2, .masthead .h2 {
-  /* font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif; */
   max-width: 20rem;
   font-size: 1rem;
   color:rgba(255, 255, 255, 0.8);
 }
 .masthead h3, .masthead .h3 {
-  /* font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif; */
+  font-size: 1.5rem;
   color:rgba(255, 255, 255, 0.8);
 }
 
