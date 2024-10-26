@@ -11098,6 +11098,11 @@ body {
   color:rgba(255, 255, 255, 0.8);
 }
 
+.masthead h4, .masthead .h4 {
+  font-size: 14px;
+  color:rgba(255, 255, 255, 0.8);
+}
+
 .title {
   text-decoration:underline;
 }
