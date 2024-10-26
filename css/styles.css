@@ -11091,7 +11091,7 @@ body {
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1.4rem;
   color:rgba(255, 255, 255, 0.8);
 }
 .masthead h3, .masthead .h3 {
@@ -11122,7 +11122,7 @@ body {
   }
   .masthead h2, .masthead .h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 3rem;
   }
 }
 
