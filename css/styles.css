@@ -11173,7 +11173,7 @@ body {
   -webkit-background-clip: text;
           background-clip: text;
 }
-.masthead3 h3, .masthead3 .h2 {
+.masthead3 h2, .masthead3 .h2 {
   font-size: 20px;
   color:rgba(255, 255, 255, 0.8);
   letter-spacing: 5px;
