@@ -3895,7 +3895,7 @@ textarea.form-control-lg {
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
   color: var(--bs-navbar-color);
-  background-color: transparent;
+  background-color: #fff;
   border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
@@ -3962,7 +3962,7 @@ textarea.form-control-lg {
     width: auto !important;
     height: auto !important;
     visibility: visible !important;
-    background-color: transparent !important;
+    background-color: #fff !important;
     border: 0 !important;
     transform: none !important;
     transition: none;
@@ -4009,7 +4009,7 @@ textarea.form-control-lg {
     width: auto !important;
     height: auto !important;
     visibility: visible !important;
-    background-color: transparent !important;
+    background-color: #fff !important;
     border: 0 !important;
     transform: none !important;
     transition: none;
@@ -4024,7 +4024,7 @@ textarea.form-control-lg {
     overflow-y: visible;
   }
 }
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4056,7 +4056,7 @@ textarea.form-control-lg {
     width: auto !important;
     height: auto !important;
     visibility: visible !important;
-    background-color: transparent !important;
+    background-color: #fff !important;
     border: 0 !important;
     transform: none !important;
     transition: none;
@@ -4103,7 +4103,7 @@ textarea.form-control-lg {
     width: auto !important;
     height: auto !important;
     visibility: visible !important;
-    background-color: transparent !important;
+    background-color: #fff !important;
     border: 0 !important;
     transform: none !important;
     transition: none;
@@ -4150,7 +4150,7 @@ textarea.form-control-lg {
     width: auto !important;
     height: auto !important;
     visibility: visible !important;
-    background-color: transparent !important;
+    background-color: #fff !important;
     border: 0 !important;
     transform: none !important;
     transition: none;
@@ -4164,7 +4164,7 @@ textarea.form-control-lg {
     padding: 0;
     overflow-y: visible;
   }
-}
+} */
 .navbar-expand {
   flex-wrap: nowrap;
   justify-content: flex-start;
@@ -4196,7 +4196,7 @@ textarea.form-control-lg {
   width: auto !important;
   height: auto !important;
   visibility: visible !important;
-  background-color: transparent !important;
+  background-color: #fff !important;
   border: 0 !important;
   transform: none !important;
   transition: none;
@@ -11008,7 +11008,7 @@ body {
   outline: none;
   background-color: transparent;
 }
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
     padding-bottom: 0;
@@ -11053,7 +11053,7 @@ body {
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
   }
-}
+} */
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -11275,23 +11275,9 @@ h6, .h6 {
   width: 280px;
 }
 
-/* 画面幅が800px以上のとき */
 @media only screen and (min-width: 800px) {
   .example-img {
-    width: 400px;
+    width: 500px;
   }
 }
-
-/* 画面幅が1000px以上のとき */
-@media only screen and (min-width: 1000px) {
-  .example-img {
-    width: 200px;
-  }
-}
-
-/* 画面幅が1200px以上のとき */
-@media only screen and (min-width: 1200px) {
-  .example-img {
-    width: 400px;
-  }
 }
