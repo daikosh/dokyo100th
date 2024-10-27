@@ -11272,7 +11272,7 @@ h6, .h6 {
 /* デフォルトのサイズ */
 .example-img {
   max-width: 100%;
-  width: 300px;
+  width: 320px;
 }
 
 @media only screen and (min-width: 800px) {
