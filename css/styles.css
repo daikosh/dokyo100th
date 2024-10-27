@@ -11271,12 +11271,19 @@ h6, .h6 {
 
 /* デフォルトのサイズ */
 .example-img {
-  max-width: 80%;
-  width: 100px;
+  max-width: 100%;
+  width: 280px;
 }
 
 /* 画面幅が800px以上のとき */
 @media only screen and (min-width: 800px) {
+  .example-img {
+    width: 400px;
+  }
+}
+
+/* 画面幅が1000px以上のとき */
+@media only screen and (min-width: 1000px) {
   .example-img {
     width: 200px;
   }
@@ -11285,6 +11292,6 @@ h6, .h6 {
 /* 画面幅が1200px以上のとき */
 @media only screen and (min-width: 1200px) {
   .example-img {
-    width: 500px;
+    width: 400px;
   }
 }
