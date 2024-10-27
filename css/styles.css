@@ -11269,7 +11269,22 @@ h6, .h6 {
   font-size: 10px;
 }
 
-/* 画面幅の50%の幅で画像を表示 */
-.image-vw {
-  width : 10vw ; 
+/* デフォルトのサイズ */
+.example-img {
+  max-width: 80%;
+  width: 100px;
+}
+
+/* 画面幅が800px以上のとき */
+@media only screen and (min-width: 800px) {
+  .example-img {
+    width: 200px;
+  }
+}
+
+/* 画面幅が1200px以上のとき */
+@media only screen and (min-width: 1200px) {
+  .example-img {
+    width: 500px;
+  }
 }
