@@ -117,13 +117,14 @@ hr {
   opacity: 0.25;
 }
 
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+/* h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-}
+} */
 
+/* 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
@@ -132,7 +133,6 @@ h1, .h1 {
     font-size: 2.5rem;
   }
 }
-
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
@@ -166,7 +166,7 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 1rem;
-}
+} */
 
 p {
   margin-top: 0;
@@ -11065,178 +11065,6 @@ body {
   border: 0;
 }
 
-.masthead {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  /* font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif; */
-}
-.masthead h1, .masthead .h1 {
-  /* font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
-  font-size: 1.7rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.5rem;
-  background: rgba(255, 255, 255, 0.8);
-  /* background: linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.8)); */
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
-  letter-spacing: 5px;
-}
-.masthead h2, .masthead .h2 {
-  font-size: 20px;
-  color:rgba(255, 255, 255, 0.8);
-  letter-spacing: 5px;
-}
-.masthead h3, .masthead .h3 {
-  font-size: 16px;
-  color:rgba(255, 255, 255, 0.8);
-  letter-spacing: 5px;
-}
-
-.masthead h4, .masthead .h4 {
-  font-size: 14px;
-  color:rgba(255, 255, 255, 0.8);
-  letter-spacing: 5px;
-}
-
-.masthead2 {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/program.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  /* font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif; */
-}
-.masthead2 h1, .masthead2 .h1 {
-  /* font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
-  font-size: 1.7rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.5rem;
-  background: rgba(255, 255, 255, 0.8);
-  /* background: linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.8)); */
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
-}
-.masthead2 h2, .masthead2 .h2 {
-  font-size: 20px;
-  color:rgba(255, 255, 255, 0.8);
-  letter-spacing: 5px;
-}
-.masthead2 h3, .masthead2 .h3 {
-  font-size: 16px;
-  color:rgba(255, 255, 255, 0.8);
-  letter-spacing: 5px;
-}
-
-.masthead2 h4, .masthead2 .h4 {
-  font-size: 14px;
-  color:rgba(255, 255, 255, 0.8);
-  letter-spacing: 5px;
-}
-
-
-.masthead3 {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/recruit.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  /* font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif; */
-}
-.masthead3 h1, .masthead3 .h1 {
-  /* font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
-  font-size: 1.7rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.5rem;
-  background: rgba(255, 255, 255, 0.8);
-  /* background: linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.8)); */
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
-}
-.masthead3 h2, .masthead3 .h2 {
-  font-size: 20px;
-  color:rgba(255, 255, 255, 0.8);
-  letter-spacing: 5px;
-}
-.masthead3 h3, .masthead3 .h3 {
-  font-size: 16px;
-  color:rgba(255, 255, 255, 0.8);
-  letter-spacing: 5px;
-}
-.masthead3 h4, .masthead3 .h4 {
-  font-size: 14px;
-  color:rgba(255, 255, 255, 0.8);
-  letter-spacing: 5px;
-}
-
-.masthead0 {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/intro.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  /* font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif; */
-}
-.masthead0 h1, .masthead0 .h1 {
-  /* font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
-  font-size: 1.7rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.5rem;
-  background: rgba(255, 255, 255, 0.8);
-  /* background: linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.8)); */
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
-  letter-spacing: 5px;
-}
-.masthead0 h2, .masthead0 .h2 {
-  font-size: 20px;
-  color:rgba(255, 255, 255, 0.8);
-  letter-spacing: 5px;
-}
-.masthead0 h3, .masthead0 .h3 {
-  font-size: 16px;
-  color:rgba(255, 255, 255, 0.8);
-  letter-spacing: 5px;
-}
-
-.masthead0 h4, .masthead0 .h4 {
-  font-size: 14px;
-  color:rgba(255, 255, 255, 0.8);
-  letter-spacing: 5px;
-}
-
-
-.title {
-  text-decoration:underline;
-}
-
-
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
     font-size: 4rem;
@@ -11344,4 +11172,99 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+
+.content-top {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  /* font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif; */
+}
+
+.content-program {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/program.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  /* font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif; */
+}
+
+.content-recruit {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/recruit.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  /* font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif; */
+}
+
+.content-intro {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/intro.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  /* font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif; */
+}
+
+
+.title {
+  text-decoration:underline;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color:rgba(255, 255, 255, 0.8);
+  letter-spacing: 3px;
+}
+
+h1, .h1 {
+  font-size: 28px;
+}
+
+h2, .h2 {
+  font-size: 20px;
+}
+
+h3, .h3 {
+  font-size: 16px;
+}
+
+h4, .h4 {
+  font-size: 14px;
+}
+
+h5, .h5 {
+  font-size: 12px;
+}
+
+h6, .h6 {
+  font-size: 10px;
 }
