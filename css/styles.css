@@ -12,12 +12,10 @@
  */
 
 
- @font-face
- {
- font-family: はんなり明朝;
- src: url('https://cdn.leafscape.be/hannari/hannari_web.woff2')
-      format("woff2");
- }
+ @font-face {
+  font-family: "はんなり明朝";
+  src: url("../assets/fonts/HannariMincho-Regular.otf") format("opentype");
+}
 
 :root {
   --bs-blue: #0d6efd;
